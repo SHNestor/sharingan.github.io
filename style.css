@@ -7,7 +7,10 @@
     position: absolute;
     top: 9%;
     left: 25%;
-    animation: sharingans ls linear infinite;
+    animation-name: sharingan;
+    animation-duration: 5s; /* Duración de la animación en segundos */
+    animation-timing-function: linear; /* Función de temporización de la animación */
+    animation-iteration-count: infinite; /* Número de veces que se repite la animación (en este caso, infinito) */
 }
 .linea_Interior{
     width: 70%;
@@ -38,6 +41,6 @@
     transform: rotateZ(60deg) skewY(30deg);
 }
 
-@keyframes sharingans{
+@keyframes sharingan{
     to {transform: rotate(360deg);}
 }
